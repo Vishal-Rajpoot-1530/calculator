@@ -1,0 +1,43 @@
+ .app{
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 10px;
+    height: 25rem;
+    width: 16rem;
+     
+    box-shadow: 1px 5px 20px rgb(72, 72, 72);
+ }
+
+ body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+ }
+
+ .body_container{
+   margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+ }
+ .buttons{
+      
+      margin: .4rem .7rem;
+
+       
+ }
+
+ .buttons button{
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: .5rem;
+ }
+ .display input{
+   font-size: 1.2rem;
+   text-align: right;
+
+ }
+ .buttons button:active{
+   transform: scale(1.2);
+ }
